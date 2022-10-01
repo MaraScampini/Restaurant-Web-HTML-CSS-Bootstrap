@@ -1,6 +1,6 @@
 :root {
     --dark-green: #1b8f72;
-    --dark-red: #ba7950;
+    --brown: #ba7950;
     --yellow: #e6c66f;
     --cream: #e4e4db;
 }
@@ -18,7 +18,7 @@ max-width: 1070px;
 /* GENERAL */
 
 .border-white {
-    border: white solid 0.3em;
+    border: white solid 0.3rem;
     border-radius: 0%;
 }
 
@@ -33,11 +33,26 @@ max-width: 1070px;
     color: var(--dark-green);
 }
 
+.dotted-background {
+    background-image: url(../images/Texture-dots-big.jpg);
+}
+
+.border-white-text {
+    border: white solid 0.2rem;
+    margin: 0.1em 0.45em;
+}
+
+.border-brown-text {
+    border: var(--brown) solid 0.3rem;
+    margin: 0.1em 0.45em;
+}
+
 /* NAVBAR */
 
 .bar-link {
     font-size: 1.5em;
     text-transform: uppercase;
+    text-decoration: none;
     font-weight: bold;
     font-kerning: normal;
     color: white;
@@ -63,10 +78,7 @@ max-width: 1070px;
     color: var(--dark-green)
 }
 
-.border-white-text {
-    border: white solid 0.2em;
-    margin: 0.1em 0.45em;
-}
+
 
 /* HERO */
 
@@ -169,6 +181,117 @@ max-width: 1070px;
 
 #home-lower-img {
     background-image: url(../images/Home-lower-burger.jpg);
+    background-size: cover;
+    background-position: 50%;
+}
+
+/* MENU */
+
+.card-title-white {
+    font-size: 2.5em;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+    line-height: 1em;
+}
+
+.card-price {
+    font-weight: bold;
+    font-size: larger;
+}
+
+#menu-a-1 {
+    background-image: url(../images/Sides-Salad.jpg);
+        background-size: cover;
+        background-position: 50%;
+}
+
+#menu-a-2 {
+    background-image: url(../images/Sides-Hummus.jpg);
+    background-size: cover;
+    background-position: 50%;
+}
+
+#menu-a-3 {
+    background-image: url(../images/Sides-Nachos.jpg);
+    background-size: cover;
+    background-position: 50%;
+}
+
+#menu-a-4 {
+    background-image: url(../images/Sides-sweet-potatoes.jpg);
+    background-size: cover;
+    background-position: 50%;
+}
+
+#menu-b-1 {
+    background-image: url(../images/Burger-Finch.jpg);
+    background-size: cover;
+    background-position: 50%;
+}
+
+#menu-b-2 {
+    background-image: url(../images/Burger-Showdown.jpg);
+    background-size: cover;
+    background-position: 50%;
+}
+
+#menu-b-3 {
+    background-image: url(../images/Burger-Singular.jpg);
+    background-size: cover;
+    background-position: 50%;
+}
+
+#menu-b-4 {
+    background-image: url(../images/Burger-animal.jpg);
+    background-size: cover;
+    background-position: 50%;
+}
+
+#menu-p-1 {
+    background-image: url(../images/Dessert-Cheesecake.png);
+    background-size: cover;
+    background-position: 50%;
+}
+
+#menu-p-2 {
+    background-image: url(../images/Dessert-Lotus.png);
+    background-size: cover;
+    background-position: 50%;
+}
+
+#menu-p-3 {
+    background-image: url(../images/Dessert-Oreo.png);
+    background-size: cover;
+    background-position: 50%;
+}
+
+#menu-p-4 {
+    background-image: url(../images/Dessert-Banoffee.png);
+    background-size: cover;
+    background-position: 50%;
+}
+
+#menu-be-1 {
+    background-image: url(../images/Drink-Estrella.jpg);
+    background-size: cover;
+    background-position: 50%;
+}
+
+#menu-be-2 {
+    background-image: url(../images/Drink-Paulaner.jpg);
+    background-size: cover;
+    background-position: 50%;
+}
+
+#menu-be-3 {
+    background-image: url(../images/Drinks-Red-Wine.jpg);
+    background-size: cover;
+    background-position: 50%;
+}
+
+#menu-be-4 {
+    background-image: url(../images/Drinks-White-Wine.jpg);
     background-size: cover;
     background-position: 50%;
 }
