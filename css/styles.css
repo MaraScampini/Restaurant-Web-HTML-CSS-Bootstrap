@@ -1,0 +1,173 @@
+:root {
+    --dark-green: #1b8f72;
+    --dark-red: #ba7950;
+    --yellow: #e6c66f;
+    --cream: #e4e4db;
+}
+
+body {
+    font-family: "Teko";
+    font-size: 1em;
+    background-color: var(--dark-green);
+}
+
+.container {
+max-width: 1070px;
+}
+
+/* GENERAL */
+
+.border-white {
+    border: white solid 0.3em;
+    border-radius: 0%;
+}
+
+.green-link {
+    color: var(--dark-green);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.green-link:hover {
+    text-decoration: underline;
+    color: var(--dark-green);
+}
+
+/* NAVBAR */
+
+.bar-link {
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-kerning: normal;
+    color: white;
+    padding: 0 0.6em !important;
+}
+
+.bar-link:hover {
+    background-color: white;
+    color: var(--dark-green)
+}
+
+.home-link {
+    font-size: 2em;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-kerning: normal;
+    color: white;
+    padding: 0 0.6em !important;
+}
+
+.home-link:hover {
+    background-color: white;
+    color: var(--dark-green)
+}
+
+.border-white-text {
+    border: white solid 0.2em;
+    margin: 0.1em 0.45em;
+}
+
+/* HERO */
+
+.hero-image {
+    width: 100%;
+}
+
+.hero-text-background {
+    height: 100%;
+    min-height: 10vh;
+    background-image: url(../images/Texture-dots-big.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.hero-text {
+    font-size: 4em;
+    color: var(--dark-green);
+    line-height: 1em;
+    cursor: default;
+    font-weight: bold;
+}
+
+/* CARDS */
+
+.card-body-background {
+    height: 5em;
+    background-color: white;
+}
+
+.card-link {
+    font-size: 3em;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-kerning: normal;
+    color: var(--dark-green);
+    padding: 0.45em 1.45em !important;
+    transition-delay: 0.15s;
+}
+
+.card-body-background:hover {
+    color: white !important;
+    background-color: var(--dark-green) !important;
+}
+
+.card-images {
+    height: 15em;
+}
+
+#card-menu {
+    background-image: url(../images/Burger-Showdown.jpg);
+    background-size: cover;
+    background-position: 50%;
+}
+
+#card-bookings {
+    background-image: url(../images/Thousand-table.jpg);
+    background-size: cover;
+    background-position: 50%;
+}
+
+.card-dots {
+    height: 20em;
+}
+
+.card-title {
+    font-size: 2.5em;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: var(--dark-green);
+    line-height: 1em;
+}
+
+.card-text {
+    font-size: 1em;
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 1em;
+}
+
+/* LOWER ROW */
+
+.card-images-large {
+    height: 25em;
+}
+
+.card-title-large {
+    font-size: 3.5em;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: var(--dark-green);
+}
+
+#about-us-img {
+    background-image: url(../images/About-woman-eating.jpg);
+    background-size: cover;
+}
+
+#home-lower-img {
+    background-image: url(../images/Home-lower-burger.jpg);
+    background-size: cover;
+    background-position: 50%;
+}
