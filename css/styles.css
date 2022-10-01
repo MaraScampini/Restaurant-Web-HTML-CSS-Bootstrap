@@ -17,10 +17,52 @@ max-width: 1070px;
 
 /* GENERAL */
 
+.dotted-background {
+    background-image: url(../images/Texture-dots-big.jpg);
+}
+
+.line-height {
+    line-height: 2rem !important;
+}
+
+.large-col {
+    height: 60vh;
+}
+
+/* BORDERS */
+
 .border-white {
     border: white solid 0.3rem;
     border-radius: 0%;
 }
+
+.border-white-text {
+    border: white solid 0.2rem;
+    margin: 0.1em 0.45em;
+}
+
+.border-green-text {
+    border: var(--dark-green) solid 0.3rem;
+    margin: 0.1em 0.45em;
+    border-radius: 0%;
+}
+
+.border-green-text:focus {
+    border: var(--dark-green) solid 0.3rem;
+    box-shadow: none;
+}
+
+.border-green-text-link {
+    border: var(--dark-green) solid 0.3rem;
+    margin: 0.1em 0.45em;
+    border-radius: 0%;
+}
+
+.border-green-text-link:hover {
+    background-color: var(--dark-green) !important;
+}
+
+/* LINKS */
 
 .green-link {
     color: var(--dark-green);
@@ -33,19 +75,26 @@ max-width: 1070px;
     color: var(--dark-green);
 }
 
-.dotted-background {
-    background-image: url(../images/Texture-dots-big.jpg);
+/* BUTTONS */
+
+.green-link-button {
+    color: var(--dark-green);
+    text-decoration: none;
+    font-weight: bold;
 }
 
-.border-white-text {
-    border: white solid 0.2rem;
-    margin: 0.1em 0.45em;
+.green-link-button:hover {
+    color: white;
+    background-color: var(--dark-green);
 }
 
-.border-brown-text {
-    border: var(--brown) solid 0.3rem;
-    margin: 0.1em 0.45em;
+/* TEXT */
+
+.green-text {
+    font-size: 1.5rem;
+    text-transform: uppercase;
 }
+
 
 /* NAVBAR */
 
@@ -70,6 +119,7 @@ max-width: 1070px;
     font-weight: bold;
     font-kerning: normal;
     color: white;
+    text-decoration: none;
     padding: 0 0.6em !important;
 }
 
@@ -294,4 +344,43 @@ max-width: 1070px;
     background-image: url(../images/Drinks-White-Wine.jpg);
     background-size: cover;
     background-position: 50%;
+}
+
+/* CONTACT */
+
+.embed-map {
+    height: 100%;
+    width: 100%;
+}
+
+.contact-col {
+    height: 100%;
+    min-height: 50vh;
+}
+
+.tall-background {
+    height: 10vh;
+}
+
+#reservation-pic {
+    background-image: url(../images/About-woman-eating.jpg);
+    background-size: cover;
+    background-position: 50%;
+}
+
+#reservation-dropdown {
+    width: 100%;
+    font-family: 'Teko';
+    text-transform: uppercase;
+    font-size: 1.5rem;
+}
+
+#reservation-done {
+    background-image: url(../images/Reservation-done.jpg);
+    background-size: cover;
+    background-position: 50%;
+}
+
+#return-button {
+    width: 100vw;
 }

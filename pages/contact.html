@@ -11,6 +11,10 @@
         integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
 
     <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bebas+Neue">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Teko">
+
+    <link rel="stylesheet" href="../js/scripts.js">
 
 </head>
 
@@ -18,26 +22,117 @@
 
     <!-- NAVBAR -->
 
-    <div class="navbar">
-        <div class="col">a</div>
-    </div>
+    <nav class="navbar navbar-dark navbar-expand-md bg-darkgreen">
+        <div class="container-fluid">
+            <a class="navbar-brand home-link" href="../index.html">Thousand</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link bar-link border-white-text" href="../pages/menu.html">Carta</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link bar-link border-white-text" href="../pages/about-us.html">Sobre Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link bar-link border-white-text" href="../pages/contact.html">Contacto / Reservas </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link bar-link border-white-text" href="../pages/faq.html">FAQ</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
     <!-- UPPER ROW - CONTACT + MAP -->
 
 
     <div class="container">
         <div class="row">
-            <div class="col col-md-6 contact-col">a</div>
-            <div class="col-12 col-md-6 contact-col">b</div>
+            <div class="col-12 col-md-6 mb-3 mb-md-0">
+                <div class="border-white bg-white">
+                    <div class="dotted-background tall-background"></div>
+                    <div class="p-4 border-white card">
+                        <h5 class="card-title mb-3">CONTACTO</h5>
+                        <p class="card-text line-height">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="var(--dark-green)"
+                                class="bi bi-envelope" viewBox="0 0 16 16">
+                                <path
+                                    d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z" />
+                            </svg>
+                            info@thousandburgers.com
+                        </p>
+                        <p class="card-text line-height">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="var(--dark-green)"
+                                class="bi bi-telephone" viewBox="0 0 16 16">
+                                <path
+                                    d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z" />
+                            </svg>
+                            +34 623 01 08 28
+                        </p>
+                        <p class="card-text line-height">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="var(--dark-green)"
+                                class="bi bi-geo-alt" viewBox="0 0 16 16">
+                                <path
+                                    d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 0 1 8 14.58a31.481 31.481 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z" />
+                                <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" />
+                            </svg>
+                            C. Sant Vicente Màrtir, 44, Bajo derecha
+                        </p>
+                        <p class="card-text line-height ms-4">46001, Valencia</p>
+                        <p class="card-text line-height ms-4">Abierto todos los días de 20:30 a 23:00</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="col-12 col-md-6">
+                <iframe class="embed-map border-white card"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3079.9300820666267!2d-0.38022838438683937!3d39.47090822053853!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd604f608c0605e9%3A0x2ba24259cb24bcbf!2sHUNDRED!5e0!3m2!1ses!2ses!4v1664625060213!5m2!1ses!2ses"
+                    allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
         </div>
     </div>
 
     <!-- LOWER ROW - TAKEOUT -->
 
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col col-md-5 lower-row-col">a</div>
-            <div class="col-12 col-md-5 lower-row-col">b</div>
+    <div class="container my-4">
+        <div class="row justify-content-center g-0">
+            <div class="col col-md-4">
+                <div class="contact-col border-white" id="reservation-pic"></div>
+            </div>
+            <div class="col-12 col-md-7 mt-3 mt-md-0">
+                <div class="card border-white bg-white p-5">
+                    <h5 class="card-title mb-3">RESERVA</h5>
+                    <div class="input-group mb-3">
+                        <select class="form-select border-green-text green-text text-center" id="inputGroupSelect01">
+                            <option selected>¿A qué hora nos vemos?</option>
+                            <option value="1">20:30</option>
+                            <option value="1">21:00</option>
+                            <option value="2">21:30</option>
+                            <option value="3">22:00</option>
+                            <option value="3">22:30</option>
+                        </select>
+                    </div>
+                    <form>
+                        <div class="mb-3">
+                            <label for="exampleInputText1" class="form-label green-text">NOMBRE</label>
+                            <input type="text" class="form-control border-green-text" id="exampleInputText1"
+                                aria-describedby="textHelp">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label green-text">CORREO ELECTRÓNICO</label>
+                            <input type="email" class="form-control border-green-text" id="exampleInputEmail1">
+                        </div>
+                        <button type="link" class="btn border-green-text-link green-text"><a class="green-link-button"
+                                href="../pages/reservation.html">Continuar</a></button>
+                    </form>
+                </div>
+            </div>
         </div>
     </div>
 
