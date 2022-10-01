@@ -152,6 +152,7 @@ max-width: 1070px;
 
 .card-images-large {
     height: 25em;
+    size: 100%;
 }
 
 .card-title-large {
