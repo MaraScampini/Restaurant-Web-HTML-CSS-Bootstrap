@@ -130,7 +130,7 @@ max-width: 1070px;
 
 
 
-/* HERO */
+/* HERO MAIN */
 
 .hero-image {
     width: 100%;
@@ -147,7 +147,7 @@ max-width: 1070px;
 }
 
 .hero-text {
-    font-size: 4em;
+    font-size: 3.5em;
     color: var(--dark-green);
     line-height: 1em;
     cursor: default;
@@ -355,7 +355,7 @@ max-width: 1070px;
 
 .contact-col {
     height: 100%;
-    min-height: 50vh;
+    min-height: 40vh;
 }
 
 .tall-background {
