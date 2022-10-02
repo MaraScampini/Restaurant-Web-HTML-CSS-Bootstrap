@@ -384,3 +384,36 @@ max-width: 1070px;
 #return-button {
     width: 100vw;
 }
+
+/* ABOUT US */
+
+.hero-about {
+    height: 40vh;
+    background-image: url(../images/about-us-2.jpg);
+    background-size: cover;
+    background-position: 50%;
+}
+
+
+.about-pic {
+    height: 100%;
+    min-height: 50vh;
+}
+
+#about-pic-1 {
+        background-image: url(../images/about-us-3.jpg);
+        background-size: cover;
+        background-position: 50% 30%;
+}
+
+#about-pic-2 {
+    background-image: url(../images/about-us-6.jpg);
+    background-size: cover;
+    background-position: 50% 30%;
+}
+
+#about-dry-aged {
+    background-image: url(../images/about-burger-dry-aged.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+}
